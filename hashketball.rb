@@ -138,7 +138,7 @@ def player_by_number(number)
   end 
 end 
 
-player_by_number(33)
+puts player_by_number(33)
 
 def shoe_size(player_name)
   shoe = 0
