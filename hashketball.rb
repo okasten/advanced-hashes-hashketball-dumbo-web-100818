@@ -129,7 +129,7 @@ end
 
 def player_by_number(number)
   game_hash.each do |location, team_data|
-    team_data[:players].each do |name, stat|
+    team_data[:players].each do |name, stats|
       binding.pry
     end 
   end 
