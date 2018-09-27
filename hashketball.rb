@@ -130,7 +130,10 @@ end
 def player_by_number(number)
   game_hash.each do |location, team_data|
     team_data[:players].each do |name, stats|
-      binding.pry
+      #binding.pry
+      if stats[:number] == number
+        return name
+      end 
     end 
   end 
 end 
